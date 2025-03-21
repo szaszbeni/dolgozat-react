@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+
+
+.primary-color {
+  color: #FF6464;
+}
+
+.secondary-color {
+  color: #00A8CC;
+}
+
+.title-color {
+  color: #21243D;
+}
+
+.text-color {
+  color: #8695A4;
+}
+
+.background-color {
+  color: #FFFFFF;
+}
+
+
+
+
+body {
+  font-family: 'Heebo', sans-serif;
+  color: #21243D;
+  padding: 0;
+  margin: 0;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: 'flex';
+  justify-content: 'space-between';
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 44px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .blog-container {
+    max-width: 600px;
+
+  }
+}
+
+.blog-container {
+  width: 80%;
+  margin: auto;
+}
+
+
+.blog-post {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0px 60px 0px 30px;
+  margin: 5px;
+}
+
+.work-post {
+  background-color: white;
+  border-radius: 6px;
+  padding: 0px 60px 0px 30px;
+  margin: 5px;
+}
+
+.balesjob {
+  height: 295px;
+}
+
+.bloggec {
+  margin-left: 30px;
+}
+
+.gomb {
+  background-color: #FF6464;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+.contact {
+  padding: 0px;
+  margin: 0px;
+}
+
+.featuredworks {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.featuredworks hr {
+  width: 100% !important;
+}
+
+.featuredworks p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 10px;
+  width: 600px !important;
+}
