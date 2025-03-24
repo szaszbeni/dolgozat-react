@@ -1,1 +1,0 @@
-/* szia nem kell */
